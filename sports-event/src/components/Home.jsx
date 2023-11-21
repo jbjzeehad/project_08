@@ -1,9 +1,11 @@
+import SignUp from "../SignUp/SignUp";
+// import SignIn from "./SignIn/SignIn";
 
 
 const Home = () => {
     return (
         <div>
-            <h2>Ok ...</h2>
+            <SignUp></SignUp>
         </div>
     );
 };
