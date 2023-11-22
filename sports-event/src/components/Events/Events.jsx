@@ -12,9 +12,6 @@ const Events = () => {
             .then(data => setEventCard(data))
     }, [])
 
-
-
-
     return (
         <div className="grid grid-cols-3 p-16 gap-4 bg-gradient-to-bl from-[#FBAE3F] to-[#001220] ">
             {
