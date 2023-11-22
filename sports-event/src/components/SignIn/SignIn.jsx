@@ -1,7 +1,12 @@
 // import { BsEyeSlash } from "react-icons/bs";
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../Providers/AuthProviders";
 
 const SignIn = () => {
+
+
+    const { signInUser } = useContext(AuthContext);
 
     const handleSignIn = e => {
         e.preventDefault();
@@ -9,12 +14,14 @@ const SignIn = () => {
         const password = e.target.password.value;
         console.log(password);
         console.log(email);
+        signInUser(email, password)
+            .then(result => {
+                console.log(result.user);
+            })
+            .catch(error => {
+                console.error(error.message);
+            })
     }
-
-
-
-
-
     return (
 
         <div className="relative">

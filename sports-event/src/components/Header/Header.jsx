@@ -1,12 +1,33 @@
+import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from "../Providers/AuthProviders";
 
 
 const Header = () => {
+
+    const { user, signOutUser } = useContext(AuthContext);
+
+
+    const handleSignOut = () => {
+        // e.preventDefault();
+        signOutUser()
+            .then(() =>
+                console.log('logged out user'))
+            .catch(error =>
+                console.error(error.message))
+    }
+
+
+
+
     const navLinks = <>
 
         <li><NavLink to='/'>Home</NavLink></li>
-        <li><NavLink to='/signup'>SignUp</NavLink></li>
-        <li><NavLink to='/signin'>SignIn</NavLink></li>
+        <li><NavLink to='/orderitems'>Orders</NavLink></li>
+        <li><NavLink to='/events'>Events</NavLink></li>
+
+        {/* <li><NavLink to='/signup'>SignUp</NavLink></li>
+        <li><NavLink to='/signin'>SignIn</NavLink></li> */}
 
     </>
     return (
@@ -21,13 +42,30 @@ const Header = () => {
                             {navLinks}
                         </ul>
                     </div>
-                    <Link to='/' className="w-1/3"><img src="logo.png" alt="" /></Link>
+                    <Link to='/' className="w-1/4"><img src="logo.png" alt="" /></Link>
 
                 </div>
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         {navLinks}
                     </ul>
+                </div>
+                <div className="navbar-end">
+                    {
+                        user ?
+                            <>
+                                <span>{user.email}</span>
+                                <a onClick={handleSignOut} href="">SignOut</a>
+                            </> : <>
+                                <Link to='/signin'>
+                                    <button className="btn btn-sm">SignIn</button></Link>
+                                <Link to='/signup'>
+                                    <button className="btn btn-sm">SignUp</button></Link>
+                            </>
+
+
+                    }
+
                 </div>
             </div>
         </div>

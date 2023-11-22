@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/RBD15ZH/dhakacard.png",
+        "cover_image": "https://i.ibb.co/jRw0jP5/dhakadetails.png",
+        "title": "Dhaka Max",
+        "place": "Dhaka",
+        "price": 1500,
+        "bg_color": "#FBAE3C",
+        "details": "The Dhaka Max 2053 cycling event is a thrilling showcase of pedal power set to take place at City Park, Dhaka. Organized by the passionate team at the Anytown Cycling Association, this event promises an exhilarating day of races and camaraderie. Cyclists of varying expertise, hailing from countries like the USA, Canada, Germany, Spain, and more, will converge to compete across multiple routes tailored to different skill levels and categories. With thrilling sprints, endurance challenges, and team events, the Tour de Anytown fosters both competition and community, offering recognition and awards to top performers while celebrating the sheer joy and skill of cycling.",
+        "time": "15.12.23"
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/HDFgpc9/sylhetcaard.png",
+        "cover_image": "https://i.ibb.co/Nn5kC8c/sylhetdetails.png",
+        "title": "Sylhet 25K",
+        "place": "Sylhet",
+        "price": 1200,
+        "bg_color": "#FFFF3F",
+        "details": "The annual Sylhet City half Marathon 2023 is set to electrify the streets on November,2023. Taking place in the heart of downtown, this event draws thousands of passionate runners, both amateurs and seasoned athletes, to compete in various race categories. With routes spanning scenic city landmarks and vibrant neighborhoods, participants can choose from a range of distances, including a 5K fun run, a half marathon, and the challenging full marathon. Organized by the City Athletic Council, this event not only promotes fitness and healthy lifestyles but also fosters a sense of community spirit, as locals and visitors alike cheer on the runners throughout the city streets.",
+        "time": "03.11.23"
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/D4cvVG1/moulcard.png",
+        "cover_image": "https://i.ibb.co/QQpsZXg/mouldetails.png",
+        "title": "Moulvibazar MTB",
+        "place": "Moulvibazar",
+        "price": 2000,
+        "bg_color": "#FBAE3C",
+        "details": "The upcoming cycling event is set to electrify the city's atmosphere. Hosted by the esteemed Anytown Cycling Association, this event promises a thrilling showcase of athleticism and camaraderie. Cyclists from various corners of the globe, representing diverse skill levels and backgrounds, will converge at City Park, Anytown, to pedal their way through exhilarating routes crafted to challenge their endurance, speed, and agility. With participants hailing from countries like the USA, Canada, Germany, Spain, and more, this event is a celebration of cycling prowess on an international scale.",
+        "time": "15.02.21"
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/6nP98pW/cucard.png",
+        "cover_image": "https://i.ibb.co/Njr5mRz/cudetails.png",
+        "title": "Cumilla Runners",
+        "place": "Cumilla",
+        "price": 1000,
+        "bg_color": "#FFFF3F",
+        "details": "Certainly! A running event, often a marathon or race, brings together avid runners and fitness enthusiasts for a day of athletic challenge and community spirit. Set against a backdrop of scenic routes through urban landscapes or picturesque trails, these events typically feature various distances to accommodate different skill levels, from 5K fun runs to full marathons. Participants, fueled by their determination and passion for fitness, traverse the course, cheered on by enthusiastic supporters lining the streets. These events promote a sense of achievement, camaraderie among runners, and often raise funds for charitable causes, fostering a vibrant and uplifting atmosphere that celebrates both individual achievements and collective support for a healthy lifestyle.",
+        "time": "03.05.24"
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/mzrWV8M/haldacard.png",
+        "cover_image": "https://i.ibb.co/1nCrYKn/haldadetails.png",
+        "title": "Mountain Bike",
+        "place": "Chittagong",
+        "price": 1800,
+        "bg_color": "#FBAE3C",
+        "details": "The  is a dynamic cycling extravaganza set for March at City Park, Anytown. Organized by the Anytown Cycling Association, this event welcomes cyclists of various levels and nationalities, creating an electrifying atmosphere where participants compete across multiple routes tailored for different skill sets. From sprint challenges to endurance tests, the event promises thrilling competitions and the chance for cyclists to showcase their prowess. With diverse participants and categories, it's a celebration of cycling's spirit, uniting enthusiasts in the joy and adrenaline of this high-speed sport.",
+        "time": "23.03.18"
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/qWsfFdy/kolkatacard.png",
+        "cover_image": "https://i.ibb.co/1JDk0jt/kolkatadetails.png",
+        "title": "Kolkata 25K",
+        "place": "India",
+        "price": 2200,
+        "bg_color": "#FFFF3F",
+        "details": "The National Running Event, a hallmark of athletic prowess and community spirit, brings together avid runners from across the country in a dynamic display of endurance and determination. Held annually, this event features various race categories catering to all skill levels, from spirited beginners to seasoned marathon veterans. Runners dash through scenic routes that showcase the beauty of the host city, fostering camaraderie and healthy competition among participants. With categories including sprints, marathons, and relays, the event not only celebrates individual accomplishments but also promotes fitness, sportsmanship, and the vibrant spirit of unity through the shared love for running.",
+        "time": "02.02.24"
+    }
+]
