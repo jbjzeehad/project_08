@@ -12,6 +12,7 @@ import AuthProviders from './components/Providers/AuthProviders';
 import SignUp from './components/SignUp/SignUp';
 import OrderItems from './components/OrderItems/OrderItems';
 import Events from './components/Events/Events';
+import Shops from './components/Shops/Shops';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: "/events",
         element: <Events></Events>
+      },
+      {
+        path: "/shops",
+        element: <Shops></Shops>
       }
     ]
   },
