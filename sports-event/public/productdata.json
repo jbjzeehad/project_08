@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "image": "https://example.com/accessory1.jpg",
+        "title": "Reflective Running Vest",
+        "category": "running",
+        "price": 19.99
+    },
+    {
+        "id": 2,
+        "image": "https://example.com/accessory2.jpg",
+        "title": "Cycling Gloves",
+        "category": "cycling",
+        "price": 24.95
+    },
+    {
+        "id": 3,
+        "image": "https://example.com/accessory3.jpg",
+        "title": "Hydration Belt",
+        "category": "running",
+        "price": 29.99
+    },
+    {
+        "id": 4,
+        "image": "https://example.com/accessory4.jpg",
+        "title": "Bike Front Light",
+        "category": "cycling",
+        "price": 39.95
+    },
+    {
+        "id": 5,
+        "image": "https://example.com/accessory5.jpg",
+        "title": "Running Arm Band",
+        "category": "running",
+        "price": 14.99
+    },
+    {
+        "id": 6,
+        "image": "https://example.com/accessory6.jpg",
+        "title": "Cycling Helmet",
+        "category": "cycling",
+        "price": 49.95
+    },
+    {
+        "id": 7,
+        "image": "https://example.com/accessory7.jpg",
+        "title": "Compression Calf Sleeves",
+        "category": "running",
+        "price": 34.99
+    },
+    {
+        "id": 8,
+        "image": "https://example.com/accessory8.jpg",
+        "title": "Bike Repair Kit",
+        "category": "cycling",
+        "price": 19.95
+    },
+    {
+        "id": 9,
+        "image": "https://example.com/accessory9.jpg",
+        "title": "Running Shoes",
+        "category": "running",
+        "price": 89.99
+    },
+    {
+        "id": 10,
+        "image": "https://example.com/accessory10.jpg",
+        "title": "Cycling Water Bottle",
+        "category": "cycling",
+        "price": 9.95
+    },
+    {
+        "id": 11,
+        "image": "https://example.com/accessory11.jpg",
+        "title": "Running Waist Pack",
+        "category": "running",
+        "price": 22.99
+    },
+    {
+        "id": 12,
+        "image": "https://example.com/accessory12.jpg",
+        "title": "Bike Rear Rack",
+        "category": "cycling",
+        "price": 59.95
+    }
+]
