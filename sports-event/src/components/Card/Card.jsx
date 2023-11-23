@@ -7,7 +7,8 @@ const Card = ({ card }) => {
     return (
         <div className="bg-[#001220] drop-shadow-xl  p-2 rounded-xl " >
             <div>
-                <div><img className="rounded-lg" src={image} /></div>
+                <div>
+                    <img className="rounded-lg" src={image} /></div>
                 <p className="font-bold text-[#FBAE3F] text-2xl py-3">{title}</p>
                 <div className="flex text-lg gap-10 items-center pb-3">
                     <p className="flex items-center gap-2"><MdPlace></MdPlace>{place}</p>
