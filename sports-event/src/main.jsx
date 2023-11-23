@@ -13,7 +13,7 @@ import SignUp from './components/SignUp/SignUp';
 import OrderItems from './components/OrderItems/OrderItems';
 import Events from './components/Events/Events';
 import Shops from './components/Shops/Shops';
-import ErrorPage from './components/ErrorPage.jsx/ErrorPage';
+import ErrorPage from './components/ErrorPage/ErrorPage';
 
 const router = createBrowserRouter([
   {

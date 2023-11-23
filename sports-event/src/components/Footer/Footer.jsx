@@ -2,21 +2,21 @@ import { TiSocialFacebook } from "react-icons/ti";
 import { TiSocialInstagram } from "react-icons/ti";
 import { TiSocialYoutube } from "react-icons/ti";
 import { TiSocialTwitter } from "react-icons/ti";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
         <div className="bg-[#001220] grid grid-cols-5 py-5">
             <div className="items-center flex p-10">
-                <img className="w-32" src="logo.png" />
+                <Link to='/'><img className="w-32" src="logo.png" /></Link>
             </div>
             <div>
-                <h3 className="font-bold text-lg pb-3">Events</h3>
-                <p>10K Runs<br />25k Runs<br />Marathons<br />MTB Championship<br />Kids Event</p>
-
+                <h3 className="font-bold text-lg pb-3"><Link to='/events'>Events</Link></h3>
+                <p><Link to='/events'>10K Runs<br />25k Runs<br />Marathons<br />MTB Championship<br />Kids Event</Link></p>
             </div>
             <div>
-                <h3 className="font-bold text-lg pb-3">Shops</h3>
-                <p>Fork-Suspension<br />Cycle Seats<br />Cycle gear<br />Derailleur</p>
+                <h3 className="font-bold text-lg pb-3"><Link to='/shops'>Shops</Link></h3>
+                <p><Link to='/shops'>Fork-Suspension<br />Cycle Seats<br />Cycle gear<br />Derailleur</Link></p>
 
             </div>
             <div>
