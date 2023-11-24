@@ -21,6 +21,7 @@ const Home = () => {
 
 
     return (
+
         <div className="bg-gradient-to-b from-[#FBAE3F] to-[#001220] ">
             <Banner></Banner>
             <EventSection></EventSection>

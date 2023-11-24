@@ -1,10 +1,14 @@
+import { useContext } from "react";
 import { TiSocialFacebook } from "react-icons/ti";
 import { TiSocialInstagram } from "react-icons/ti";
 import { TiSocialYoutube } from "react-icons/ti";
 import { TiSocialTwitter } from "react-icons/ti";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../Providers/AuthProviders";
 
 const Footer = () => {
+
+    const { user } = useContext(AuthContext);
     return (
         <div className="bg-[#001220] grid grid-cols-5 py-5">
             <div className="items-center flex p-10">
@@ -15,8 +19,23 @@ const Footer = () => {
                 <p><Link to='/events'>10K Runs<br />25k Runs<br />Marathons<br />MTB Championship<br />Kids Event</Link></p>
             </div>
             <div>
-                <h3 className="font-bold text-lg pb-3"><Link to='/shops'>Shops</Link></h3>
-                <p><Link to='/shops'>Fork-Suspension<br />Cycle Seats<br />Cycle gear<br />Derailleur</Link></p>
+
+                {
+                    user ?
+                        <>
+                            <h3 className="font-bold text-lg pb-3">
+                                <Link to='/shops'>Shops</Link></h3>
+                            <p><Link to='/shops'>Fork-Suspension<br />Cycle Seats<br />Cycle gear<br />Derailleur</Link></p>
+                        </>
+                        :
+                        <>
+                            <h3 className="font-bold text-lg pb-3">
+                                <Link to='/signin'>Shops</Link></h3>
+                            <p><Link to='/signin'>Fork-Suspension<br />Cycle Seats<br />Cycle gear<br />Derailleur</Link></p>
+                        </>
+                }
+
+
 
             </div>
             <div>

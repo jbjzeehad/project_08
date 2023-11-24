@@ -25,10 +25,6 @@ const SignUp = () => {
             })
     }
 
-
-
-
-
     return (
         <div className="relative">
             <img className="w-full " src="siuBg.png" alt="" />

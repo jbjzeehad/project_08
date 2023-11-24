@@ -8,7 +8,9 @@ import { AuthContext } from "../Providers/AuthProviders";
 const SignIn = () => {
 
     const userSignIn = () => {
+
         toast('Welcome Back');
+
     }
 
 
@@ -18,8 +20,6 @@ const SignIn = () => {
         e.preventDefault();
         const email = e.target.email.value;
         const password = e.target.password.value;
-        console.log(password);
-        console.log(email);
         signInUser(email, password)
             .then(result => {
                 console.log(result.user);
