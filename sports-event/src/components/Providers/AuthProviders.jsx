@@ -12,28 +12,17 @@ const AuthProviders = ({ children }) => {
 
     const [user, setUser] = useState(null);
 
-
     const createUser = (email, password) => {
         return createUserWithEmailAndPassword(auth, email, password);
     }
-
 
     const signInUser = (email, password) => {
         return signInWithEmailAndPassword(auth, email, password);
     }
 
-
     const signOutUser = () => {
         return signOut(auth);
     }
-
-
-
-
-
-
-
-
 
     useEffect(() => {
         const unSubscribe = onAuthStateChanged(auth, currentUser => {
@@ -44,13 +33,6 @@ const AuthProviders = ({ children }) => {
             unSubscribe();
         }
     }, [])
-
-
-
-
-
-
-
 
     const authinfo = { user, createUser, signInUser, signOutUser };
     return (

@@ -14,6 +14,8 @@ import OrderItems from './components/OrderItems/OrderItems';
 import Events from './components/Events/Events';
 import Shops from './components/Shops/Shops';
 import ErrorPage from './components/ErrorPage/ErrorPage';
+import EventCardDetails from './components/EventCardDetails/EventCardDetails';
+
 
 const router = createBrowserRouter([
   {
@@ -41,9 +43,15 @@ const router = createBrowserRouter([
         path: "/events",
         element: <Events></Events>
       },
+
       {
         path: "/shops",
         element: <Shops></Shops>
+      },
+      {
+        path: "/event/:id",
+        element: <EventCardDetails></EventCardDetails>,
+        loader: () => fetch('data.json')
       }
     ]
   },

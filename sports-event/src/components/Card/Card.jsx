@@ -1,6 +1,7 @@
 import { GiTicket } from "react-icons/gi";
 import { MdPlace } from "react-icons/md";
 import { FaCalendarAlt } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Card = ({ card }) => {
     const { id, image, bg_color, title, place, price, time } = card;
@@ -16,7 +17,7 @@ const Card = ({ card }) => {
 
                 </div>
                 <div className="flex gap-6 items-center">
-                    <button className="text-white text-lg font-bold border-2 bg-[#001220] rounded-lg py-1 px-3" style={{ borderColor: bg_color }}>View Details</button>
+                    <Link to={`/event/${id}`}> <button className="text-white text-lg font-bold border-2 bg-[#001220] rounded-lg py-1 px-3" style={{ borderColor: bg_color }}>View Details</button></Link>
                     <p className="flex text-lg items-center gap-2"><FaCalendarAlt></FaCalendarAlt>{time}</p>
 
                 </div>
