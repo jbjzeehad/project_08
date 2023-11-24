@@ -2,7 +2,10 @@ import { useEffect, useState } from "react";
 import Card from "../Card/Card";
 
 
+
 const Events = () => {
+
+
 
     const [eventCard, setEventCard] = useState([]);
     const [eventCardLength, setEventCardLength] = useState(3);

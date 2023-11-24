@@ -12,6 +12,8 @@ const Card = ({ card }) => {
 
 
 
+
+
     const { id, image, bg_color, title, place, price, time } = card;
     return (
         <div className="bg-[#001220] drop-shadow-xl  p-2 rounded-xl " >

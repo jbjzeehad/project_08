@@ -15,6 +15,7 @@ import Events from './components/Events/Events';
 import Shops from './components/Shops/Shops';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import EventCardDetails from './components/EventCardDetails/EventCardDetails';
+import PrivateRoutes from './components/PrivateRoutes/PrivateRoutes';
 
 
 const router = createBrowserRouter([
@@ -37,7 +38,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/orderitems",
-        element: <OrderItems></OrderItems>
+        element: <PrivateRoutes><OrderItems></OrderItems></PrivateRoutes>
       },
       {
         path: "/events",
@@ -46,11 +47,11 @@ const router = createBrowserRouter([
 
       {
         path: "/shops",
-        element: <Shops></Shops>
+        element: <PrivateRoutes><Shops></Shops></PrivateRoutes>
       },
       {
         path: "/event/:id",
-        element: <EventCardDetails></EventCardDetails>,
+        element: <PrivateRoutes><EventCardDetails></EventCardDetails></PrivateRoutes>,
         loader: () => fetch('data.json')
       }
     ]

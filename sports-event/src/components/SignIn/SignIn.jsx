@@ -2,7 +2,7 @@
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../Providers/AuthProviders";
 
 const SignIn = () => {
@@ -14,6 +14,7 @@ const SignIn = () => {
     }
 
 
+    const navigate = useNavigate();
     const { signInUser } = useContext(AuthContext);
 
     const handleSignIn = e => {
@@ -23,6 +24,9 @@ const SignIn = () => {
         signInUser(email, password)
             .then(result => {
                 console.log(result.user);
+                e.target.reset();
+                navigate('/');
+
             })
             .catch(error => {
                 console.error(error.message);
