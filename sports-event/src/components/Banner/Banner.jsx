@@ -8,7 +8,7 @@ const Banner = () => {
 
     return (
         <div>
-            <div className="h-screen bg-[url('banner.png')] 
+            <div className="h-screen bg-[url('https://i.ibb.co/RDHTV2m/banner.jpg')] 
 bg-no-repeat bg-cover">
                 <div className="bg-[#001220] bg-opacity-60">
                     <h3 className="p-10 text-slate-200 text-7xl font-bold">Your Only Limits Are <br />Self Im<span className="text-[#FBAE3F]">pos</span>ed.</h3>
