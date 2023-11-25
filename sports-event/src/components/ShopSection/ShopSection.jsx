@@ -14,33 +14,33 @@ const ShopSection = () => {
                 <div className="flex gap-5 items-center">
                     <div className=" rounded-2xl relative">
                         <img className="rounded-2xl" src='https://i.ibb.co/DwTgfcS/cyclinggloves.png' />
-                        <div className="bg-[#001220] bg-opacity-70 flex gap-12 absolute bottom-0 px-6 py-4 w-full rounded-b-2xl items-center">
+                        <div className="bg-[#001220] bg-opacity-70 flex justify-between absolute bottom-0 px-4 py-4 w-full rounded-b-2xl items-center">
                             <p className="text-lg text-slate-100 font-semibold ">Cycling Gloves</p>
 
                             {
                                 user ?
                                     <>
-                                        <Link to='/shops'> <button className="border font-bold flex items-center gap-2 py-2 px-5 border-slate-100 rounded-lg bg-[#001220] text-[#FBAE3F]"><BiDollarCircle></BiDollarCircle>24.95</button></Link>
+                                        <Link to='/shops'> <button className="border font-bold flex items-center gap-2 py-2 px-4 border-slate-100 rounded-lg bg-[#001220] text-[#FBAE3F]"><BiDollarCircle></BiDollarCircle>24.95</button></Link>
                                     </>
                                     :
                                     <>
-                                        <Link to='/signin'> <button className="border font-bold flex items-center gap-2 py-2 px-5 border-slate-100 rounded-lg bg-[#001220] text-[#FBAE3F]"><BiDollarCircle></BiDollarCircle>24.95</button></Link>
+                                        <Link to='/signin'> <button className="border font-bold flex items-center gap-2 py-2 px-4 border-slate-100 rounded-lg bg-[#001220] text-[#FBAE3F]"><BiDollarCircle></BiDollarCircle>24.95</button></Link>
                                     </>
                             }
                         </div>
                     </div>
                     <div className=" rounded-2xl relative">
                         <img className="rounded-2xl" src='https://i.ibb.co/QDXPHs2/shoes.png' />
-                        <div className="bg-[#001220] bg-opacity-70 flex gap-12 absolute bottom-0 px-6 py-4 w-full rounded-b-2xl items-center">
+                        <div className="bg-[#001220] bg-opacity-70 flex justify-between absolute bottom-0 px-4 py-4 w-full rounded-b-2xl items-center">
                             <p className="text-lg text-slate-100 font-semibold ">Running Shoes</p>
                             {
                                 user ?
                                     <>
-                                        <Link to='/shops'> <button className="border font-bold flex items-center gap-2 py-2 px-5 border-slate-100 rounded-lg bg-[#001220] text-[#FBAE3F]"><BiDollarCircle></BiDollarCircle>89.99</button></Link>
+                                        <Link to='/shops'> <button className="border font-bold flex items-center gap-2 py-2 px-4 border-slate-100 rounded-lg bg-[#001220] text-[#FBAE3F]"><BiDollarCircle></BiDollarCircle>89.99</button></Link>
                                     </>
                                     :
                                     <>
-                                        <Link to='/signin'> <button className="border font-bold flex items-center gap-2 py-2 px-5 border-slate-100 rounded-lg bg-[#001220] text-[#FBAE3F]"><BiDollarCircle></BiDollarCircle>89.99</button></Link>
+                                        <Link to='/signin'> <button className="border font-bold flex items-center gap-2 py-2 px-4 border-slate-100 rounded-lg bg-[#001220] text-[#FBAE3F]"><BiDollarCircle></BiDollarCircle>89.99</button></Link>
                                     </>
                             }
                         </div>
@@ -48,17 +48,17 @@ const ShopSection = () => {
 
                     <div className=" rounded-2xl relative">
                         <img className="rounded-2xl" src='https://i.ibb.co/x8LrFBq/sleeve.png' />
-                        <div className="bg-[#001220] bg-opacity-70 flex gap-12 absolute bottom-0 px-6 py-4 w-full rounded-b-2xl items-center">
+                        <div className="bg-[#001220] bg-opacity-70 flex justify-between absolute bottom-0 px-4 py-4 w-full rounded-b-2xl items-center">
                             <p className="text-lg text-slate-100 font-semibold ">Calf Sleeves</p>
 
                             {
                                 user ?
                                     <>
-                                        <Link to='/shops'> <button className="border font-bold flex items-center gap-2 py-2 px-5 border-slate-100 rounded-lg bg-[#001220] text-[#FBAE3F]"><BiDollarCircle></BiDollarCircle>34.99</button></Link>
+                                        <Link to='/shops'> <button className="border font-bold flex items-center gap-2 py-2 px-4 border-slate-100 rounded-lg bg-[#001220] text-[#FBAE3F]"><BiDollarCircle></BiDollarCircle>34.99</button></Link>
                                     </>
                                     :
                                     <>
-                                        <Link to='/signin'> <button className="border font-bold flex items-center gap-2 py-2 px-5 border-slate-100 rounded-lg bg-[#001220] text-[#FBAE3F]"><BiDollarCircle></BiDollarCircle>34.99</button></Link>
+                                        <Link to='/signin'> <button className="border font-bold flex items-center gap-2 py-2 px-4 border-slate-100 rounded-lg bg-[#001220] text-[#FBAE3F]"><BiDollarCircle></BiDollarCircle>34.99</button></Link>
                                     </>
                             }
                         </div>

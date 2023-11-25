@@ -46,7 +46,11 @@ const Header = () => {
                     {
                         user ?
                             <>
-                                <span>{user.email}</span>
+                                <div className=" flex items-center gap-3">
+                                    <img className="rounded-full w-8" src={user.photoURL} />
+                                    <span className="text-base">{user.displayName}</span>
+                                </div>
+
                                 <a className="px-4 py-1 border rounded-md font-semibold focus:ring focus:ring-[#FBAE3C] hover:text-[#FBAE3C]" onClick={handleSignOut} href="/">SignOut</a>
                             </> : <>
                                 <Link to='/signin'>
